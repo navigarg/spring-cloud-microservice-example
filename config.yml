@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: cloud
+    active: development
 ---
 
 spring:
@@ -45,7 +45,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kbastani/spring-boot-microservice-config
+          uri: https://github.com/navigarg/spring-cloud-microservice-example/
         health:
           repositories:
             movie:
